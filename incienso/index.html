@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a6528d3960.js" crossorigin="anonymous"></script>
+    <title>INCIENSO</title>
+</head>
+<body>
+    
+    <!--Header-->
+
+    <header class="header">
+
+        <!--Contenedor del header para poner el color de fondo-->
+
+        <div class="header__container">
+
+            <!--Barra de navegacion-->
+            <img src="./img//logo.jpg" alt="" class="header__container__logo">
+            
+            <nav  class="header__container__nav">
+                <i class="fa-solid fa-bars"></i>
+
+                <!--Titulo inicial-->
+                <h1 class="header__container__nav__title">INCIENSO</h1>
+
+                <ul class="header__container__nav__lista">
+                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="./pages/nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="./pages/productos.html">PRODUCTOS</a></li>
+                    <li><a href="./pages/cuenta.html">MI CUENTA</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!--Contenido principal-->
+
+    <main>
+        
+        <!--Section de productos-->
+
+        <section class="index__productos">
+
+            <div class="index__productos__container">
+                <h2 class="index__productos__title">Algunos de nuestros productos</h2>
+             
+
+                <!--Contenedor de los productos-->
+
+                <div class="index__productos__cards">
+
+                    <!--Contenedor de un producto-->
+
+                    <div class="cards__item">
+                        <div>
+                            <img src="./img/fondo.jpg" alt="">
+                        </div>
+                        
+                        <div class="cards__item__info">
+                            <h3>Sahumo de flores</h3>
+                            <p>$100</p>
+                        </div>
+                    </div> 
+                    <div class="cards__item">
+                        <div>
+                        <img src="./img/hornillo.jpg" alt=""> 
+                        </div>
+                        
+                        <div class="cards__item__info">
+                            <h3>Sahumador de acero colgante</h3>
+                            <p>$100</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div>
+                            <img src="./img/7chakras.jpg" alt="">
+                        </div>
+                        
+                        <div class="cards__item__info">
+                            <h3>Bombitas 7 chakras</h3>
+                            <p>$100</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div>
+                        <img src="./img/sahumerio.jpg" alt=""> 
+                        </div>
+                        
+                        <div class="cards__item__info">
+                            <h3>Sahumerio</h3>
+                            <p>$100</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div>
+                            <img src="./img/collar-blanco.jpg" alt="">
+                        </div>
+                        
+                        <div class="cards__item__info">
+                            <h3>Cuarzo cristal</h3>
+                            <p>$100</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div>
+                            <img src="./img/prosperidad.jpg" alt="">
+                        </div>
+                        
+                        <div class="cards__item__info">
+                            <h3>Kit prosperidad</h3>
+                            <p>$100</p>
+                        </div>
+                    </div>   
+                     
+                </div>
+
+                <div class="index__productos__atajos"> 
+                    <a href="./pages/productos.html" class="index__atajos__link">
+                        <p>Mas</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Section de informacion-->
+
+        <section class="index__informacion">
+
+            <!--Contenedor de informacion principal-->
+
+            <div class="index__informacion__cartas">
+
+                <!--Contenedor de cada cajita-->
+                
+                <div class="index__informacion__cartas__item"> 
+
+                    <!--div para hacer el fondo de la imagen-->
+
+                    
+                    <i class="fa-solid fa-store"></i>
+                    
+                    <div>
+                        <h4>Elegi tu producto</h4>
+                        <p>Tenes una gran variedad<br/> dentro de nuestra tienda</p>
+                    </div>
+                </div>
+                
+                <div class="index__informacion__cartas__item">
+                    <div>
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                    </div>
+                    <div>
+                        <h4>Pago online</h4>
+                        <p>Podes abonar con todos<br/> los medios</p>
+                    </div>
+                </div>
+                
+                <div class="index__informacion__cartas__item">
+                    <div>
+                        <i class="fa-solid fa-house-chimney-user"></i> 
+                    </div>
+                    <div>
+                        <h4>Recibi tu pedido</h4>
+                        <p>Te lo enviamos a tu casa</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--Contenedor de links a mas informacion-->
+            
+            <div class="index__informacion__links">
+                <a href="./pages/nosotros.html#pago">
+                    <div>
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                        <h5>Nuestros medios de pago</h5>
+                    </div>
+                </a>
+                <a href="./pages/nosotros.html#consultas">
+                    <div>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h5>Escribinos al WhatsApp<br/> +54 9 2616304555 si<br/> tenes alguna consulta</h5>
+                    </div>   
+                </a>
+                
+            </div>
+        </section>
+
+    </main>
+
+    <!--Pie de pagina-->
+
+    <footer class="footer">
+
+        <div class="footer__container">
+            <div></div>
+
+            <!--Titulo del pie-->
+
+            <h6>INCIENSO</h6>
+
+            <!--Lista de iconos-->
+
+            <ul>
+                <li><a href="https://www.instagram.com/incienso__/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+        
+    </footer>
+
+
+
+</body>
+</html>
