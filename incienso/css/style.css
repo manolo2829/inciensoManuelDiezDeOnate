@@ -357,7 +357,9 @@ footer{
 
 }
 
-
+.cards__item:hover{
+    transform: scale(1.05);
+}
 
 .cards__item img{
     width: 320px;
@@ -402,6 +404,12 @@ footer{
     padding: 0 10px;    
 }
 
+.index__atajos__link i{
+    animation-name: desplazamiento;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
 
 
 /*---informacion---*/
@@ -1152,3 +1160,7 @@ footer{
 }
 
 
+@keyframes desplazamiento {
+    from { transform: translateX(0px); }
+    to { transform: translateX(5px); }
+}
