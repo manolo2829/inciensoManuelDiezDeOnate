@@ -51,6 +51,32 @@
     background-color: #DBEDDE;
 }
 
+#index__productos .index__productos__card{
+    transition: all 1s;
+
+
+}
+
+#index__productos .index__productos__card:hover{
+    transform: scale(1.05);
+}
+
+#index__productos .index__productos__link{
+    animation-name: tocame;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#index__informacion .index__informacion__card{
+    background-color: #B7E4BE;
+    height: 290px;
+}
+
+#index__informacion .index__informacion__card:hover{
+    background-color: #7ac985;
+}
+
 #nosotros__informacion{
     background: url('../img/DSC04393_1.jpg');
     background-position: center;
@@ -70,3 +96,20 @@
     color: #fff;
 }
 
+#productos__catalogo .productos__catalogo__card{
+    transition: all 1s;
+}
+
+#productos__catalogo .productos__catalogo__card:hover{
+    transform: scale(1.05);
+}
+
+@keyframes tocame{
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(3px);
+    }
+}
