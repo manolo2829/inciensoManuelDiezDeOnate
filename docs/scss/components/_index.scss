@@ -1,0 +1,59 @@
+@import '../base/colores';
+
+#index__productos{
+    background-color: $color-1;
+
+    .index__productos__title{
+        padding-top: 90px; 
+        padding-bottom: 40px;
+    }
+
+    .index__productos__cards{
+        .index__productos__card{
+            transition: all 1s;
+            &:hover{
+                transform: scale(1.05);
+            }
+
+            img{
+                height: 225px; 
+                object-fit: cover;
+            }
+        }
+        
+
+    }
+
+
+    .index__productos__link{
+        animation-name: tocame;
+        animation-duration: .8s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+}   
+
+#index__informacion{
+    .index__informacion__point{
+        background-color: $color-2;
+    }
+
+    .index__informacion__card{
+        background-color: $color-2;
+        height: 290px;
+        &:hover{
+            background-color: $color-3;
+        }
+    }
+}
+
+
+@keyframes tocame{
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(3px);
+    }
+}
