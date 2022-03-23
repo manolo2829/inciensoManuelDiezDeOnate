@@ -98,10 +98,32 @@
 
 #productos__catalogo .productos__catalogo__card{
     transition: all 1s;
+    height: 235px;
+}
+
+#productos__catalogo .productos__catalogo__card .card-body h5{
+    font-size: 15px;
 }
 
 #productos__catalogo .productos__catalogo__card:hover{
     transform: scale(1.05);
+}
+
+#productos__catalogo .productos__catalogo__card .productos__card__img{
+    height: 150px;
+    object-fit: cover;
+}
+
+@media (min-width: 575px){
+    #productos__catalogo .productos__catalogo__card{
+        height: 325px;
+    }
+    #productos__catalogo .productos__catalogo__card .card-body h5{
+        font-size: 20px;
+    }
+    #productos__catalogo .productos__catalogo__card .productos__card__img{
+        height: 225px;
+    }
 }
 
 @keyframes tocame{
