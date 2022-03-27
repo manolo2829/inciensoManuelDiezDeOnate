@@ -1,0 +1,173 @@
+#header {
+  background: url("../img/fondo.jpg");
+  height: 440px;
+  position: relative;
+}
+#header::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(180, 213, 185, 0.9);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#header .header__nav {
+  min-height: 100px;
+}
+#header .header__logo {
+  width: 178px;
+  height: 178px;
+  border: 10px solid #fff;
+}
+
+#header2 {
+  background: url("../img/fondo.jpg");
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+#header2 .header2__nav {
+  min-height: 100px;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+@media (min-width: 960px) {
+  #header {
+    height: 612px;
+  }
+  #header .header__logo {
+    width: 250px;
+    height: 250px;
+  }
+  #header .header__nav {
+    background-color: transparent !important;
+  }
+}
+#index__productos {
+  background-color: #DBEDDE;
+}
+#index__productos .index__productos__title {
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+#index__productos .index__productos__cards .index__productos__card {
+  transition: all 1s;
+}
+#index__productos .index__productos__cards .index__productos__card:hover {
+  transform: scale(1.05);
+}
+#index__productos .index__productos__cards .index__productos__card img {
+  height: 225px;
+  object-fit: cover;
+}
+#index__productos .index__productos__link {
+  animation-name: tocame;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#index__informacion .index__informacion__point {
+  background-color: #B7E4BE;
+}
+#index__informacion .index__informacion__card {
+  background-color: #B7E4BE;
+  height: 290px;
+}
+#index__informacion .index__informacion__card:hover {
+  background-color: #7ac985;
+}
+
+@keyframes tocame {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(3px);
+  }
+}
+#nosotros__informacion {
+  background: url("../img/DSC04393_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nosotros__informacion .nosotros__informacion__fondo {
+  background-color: rgba(218, 236, 221, 0.89);
+  width: 100%;
+  height: 100%;
+}
+#nosotros__informacion .nosotros__informacion__fondo .container-lg {
+  padding-top: 150px;
+}
+#nosotros__informacion .nosotros__informacion__fondo .container-lg .card__container div {
+  min-height: 227px;
+  background-color: rgba(251, 250, 244, 0.507);
+}
+
+#nosotros__links #nosotros__pagos {
+  background-color: #DBEDDE;
+}
+#nosotros__links #nosotros__consulta {
+  background-color: #DBEDDE;
+}
+
+#productos__catalogo {
+  padding-top: 130px;
+  background-color: #DBEDDE;
+}
+#productos__catalogo .productos__catalogo__lista li:hover {
+  background-color: #7ac985;
+  color: #fff;
+}
+#productos__catalogo .card__container .productos__catalogo__card {
+  transition: all 1s;
+}
+#productos__catalogo .card__container .productos__catalogo__card:hover {
+  transform: scale(1.05);
+}
+#productos__catalogo .card__container .productos__catalogo__card img {
+  height: 250px;
+  object-fit: cover;
+}
+@media (max-width: 540px) {
+  #productos__catalogo .card__container .productos__catalogo__card img {
+    height: 150px;
+  }
+}
+#productos__catalogo .container-lg .row .col-md-12 .row .card__container a {
+  text-decoration: none;
+}
+
+#objeto {
+  background-color: #DBEDDE;
+}
+#objeto #objeto__producto .container-lg .row h3 {
+  font-weight: lighter;
+}
+#objeto #objeto__producto .container-lg .row .col-12 img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 p span {
+  font-weight: lighter;
+}
+#objeto #objeto__relacionado .container-lg .row .col-12 a {
+  text-decoration: none;
+}
+#objeto #objeto__relacionado .container-lg .row .col-12 a .card img {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+#cuenta__formulario {
+  background-color: #DBEDDE;
+  height: 800px;
+}
+
+#footer .footer__container {
+  color: #DBEDDE;
+}
+
+/*# sourceMappingURL=style.css.map */
