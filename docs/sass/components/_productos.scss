@@ -1,0 +1,40 @@
+@import '../base/colores';
+
+#productos__catalogo{
+
+    padding-top: 130px; 
+    background-color: $color-1;
+
+    .productos__catalogo__lista li{
+        &:hover{
+            background-color: $color-3;
+            color: #fff;
+        }
+    }
+
+    .productos__catalogo__card{
+        transition: all 1s;
+        &:hover{
+            transform: scale(1.05);
+        }
+
+        img{
+            max-height: 250px;
+            object-fit: cover;
+        }
+    }
+
+    .container-lg{
+        .row{
+            .col-md-12{
+                .row{
+                    .card__container{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
