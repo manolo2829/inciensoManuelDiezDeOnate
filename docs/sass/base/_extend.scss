@@ -1,0 +1,11 @@
+
+%logoResponsive{
+    width: 178px;
+    height: 178px;
+    border: 10px solid #fff;
+    @media (min-width:960px){
+        width: 250px;
+        height: 250px;
+    }
+}
+

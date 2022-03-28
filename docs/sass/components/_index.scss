@@ -1,11 +1,14 @@
 @import '../base/colores';
+@import '../base/maps';
+@import '../base/mixin';
 
 #index__productos{
     background-color: $color-1;
 
     .index__productos__title{
-        padding-top: 90px; 
-        padding-bottom: 40px;
+
+        // MIXIN INCLUIDO
+        @include padding(90px, 40px);
     }
 
     .index__productos__cards{
@@ -26,10 +29,12 @@
 
 
     .index__productos__link{
-        animation-name: tocame;
-        animation-duration: .8s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
+
+        // UTILIZANDO MAPS
+        animation-name: map-get($animation, name);
+        animation-duration:  map-get($animation, duration);
+        animation-iteration-count:  map-get($animation, count);
+        animation-direction:  map-get($animation, direction);
     }
 }   
 
