@@ -1,0 +1,13 @@
+#footer{
+    background-color: $color-head2;
+
+    .container-lg{
+        height: 100px;
+
+        .row{
+            h5{
+                color: $color-white;
+            }
+        }
+    }
+}
