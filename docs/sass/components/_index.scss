@@ -15,13 +15,18 @@
 
             .index__productos__cards{
                 .index__productos__card{
+                    transition: all 1s;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+
                     img{
                         object-fit: cover;
                         width: 100%;
                         height: 224px;
 
                         @media (min-width: 960px){
-                            height: 324px;
+                            height: 290px;
                         }
                     }
                 }
@@ -29,4 +34,42 @@
             
         }
     }
+
+    .index__information{
+        .information__cards{
+            .information__card__container{
+                .information__card__item{
+                    .row{
+                        svg{
+                            background-color: $color-secondary;
+                        }
+                    }
+                }
+            }
+        }
+
+        .information__links{
+            .information__links__container{
+                .information__links__item{
+                    background-color: $color-secondary;
+                    height: 250px;
+
+                    &:hover{
+                        background-color: $color-hover;
+                    }
+
+                    a{
+                        text-decoration: none;
+                        color: $color-white;
+
+                        svg{
+                            height: 100px;
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
