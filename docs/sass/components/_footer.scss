@@ -1,5 +1,15 @@
+@import '../base/colors';
+
 #footer{
-    background-color: $color-head2;
+    background-image: url('../img/fondo.jpg');
+    position: relative;
+
+    .footer__fondo{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: $color-black2;
+    }
 
     .container-lg{
         height: 100px;
@@ -7,6 +17,16 @@
         .row{
             h5{
                 color: $color-white;
+            }
+
+            ul{
+                z-index: 1;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: $color-white;
+                    cursor: pointer;
+                }
             }
         }
     }
