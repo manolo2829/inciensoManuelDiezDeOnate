@@ -1,64 +1,32 @@
-@import '../base/colores';
-@import '../base/maps';
-@import '../base/mixin';
+@import '../base/colors';
 
-#index__productos{
-    background-color: $color-1;
+#index{
+    .index__productos{
+        background-color: $color-primary;
 
-    .index__productos__title{
+        .container-lg{
+            .row{
+                .index__productos__title{
+                    color: $color-black;
+                }
 
-        // MIXIN INCLUIDO
-        @include padding(90px, 40px);
-    }
-
-    .index__productos__cards{
-        .index__productos__card{
-            transition: all 1s;
-            &:hover{
-                transform: scale(1.05);
+                text-decoration: none;
             }
 
-            img{
-                height: 225px; 
-                object-fit: cover;
+            .index__productos__cards{
+                .index__productos__card{
+                    img{
+                        object-fit: cover;
+                        width: 100%;
+                        height: 224px;
+
+                        @media (min-width: 960px){
+                            height: 324px;
+                        }
+                    }
+                }
             }
+            
         }
-        
-
-    }
-
-
-    .index__productos__link{
-
-        // UTILIZANDO MAPS
-        animation-name: map-get($animation, name);
-        animation-duration:  map-get($animation, duration);
-        animation-iteration-count:  map-get($animation, count);
-        animation-direction:  map-get($animation, direction);
-    }
-}   
-
-#index__informacion{
-    .index__informacion__point{
-        background-color: $color-2;
-    }
-
-    .index__informacion__card{
-        background-color: $color-2;
-        height: 290px;
-        &:hover{
-            background-color: $color-3;
-        }
-    }
-}
-
-
-@keyframes tocame{
-    0%{
-        transform: translateY(0);
-    }
-
-    100%{
-        transform: translateY(3px);
     }
 }
