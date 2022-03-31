@@ -27,7 +27,7 @@
 
     <!-- HEADER -->
     <header id="header">
-        <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75 header__nav">
+        <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-opacity-75 header__nav">
             <div class="container-lg">
                 <a class="navbar-brand d-lg-none" href="#">INCIENSO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@
                             <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/nosotros.html">NOSOTROS</a>
+                            <a class="nav-link " href="./pages/nosotros.html">NOSOTROS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/productos.html">PRODUCTOS</a>
@@ -52,184 +52,201 @@
             </div>
         </nav>
 
-        <div class="container-fluid position-relative h-100">
-            <!-- H1 DEL INDEX -->
-            <h1 class="d-none d-lg-block text-light position-absolute top-50 start-50 translate-middle  header__title">INCIENSO</h1>
-            <img src="./img/logo.jpg" alt="Logo de nuestra tienda de distintos productos para limpiar y purificar tu alma, Incienso" class="rounded-circle position-absolute top-100 start-50 translate-middle header__logo ">
-        </div>
+        <section class="container-fluid position-relative header__container">
+            <p class="d-none d-lg-block text-light position-absolute top-50 start-50 translate-middle h1 header__container__title">INCIENSO</p>
+            <img src="./img/logo.jpg" alt="Logo de nuestra tienda de distintos productos para limpiar y purificar tu alma, Incienso" class="rounded-circle position-absolute top-100 start-50 translate-middle header__container__logo">
+        </section>
     </header>
 
-    <!-- PRODUCTOS -->
+    <!-- MAIN -->
 
-    <section id="index__productos">
-        <div class="container-md p-5" >
-            <div class="row index__productos__title">
-                <h2 class="text-center" style="font-weight: lighter;">Algunos de nuestros productos</h2>
-            </div>
-            <div class="row index__productos__cards">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card card-border mb-5 index__productos__card">
-                        <img src="./img/fondo.jpg" class="card-img-top" alt="Sahumo de flores, Distintos olores a flores y un sabor exquisito" >
-                        <div class="card-body"> 
-                            <h5 class="card-title text-center">Sahumo de flores</h5>
-                            <p class="card-text text-center h6 text-success">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card card-border mb-5 index__productos__card">
-                        <img src="./img/hornillo.jpg" class="card-img-top" alt="Sahumador de acero colgante, para purificar y limpiar un lugar" >
-                        <div class="card-body"> 
-                            <h5 class="card-title text-center">Sahumador de acero colgante</h5>
-                            <p class="card-text text-center h6 text-success">$1100</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card card-border mb-5 index__productos__card">
-                        <img src="./img/7chakras.jpg" class="card-img-top" alt="Bombitas 7 chackas, una experiencia que te permite llevar todos tus chackas y buenas vibras al limite" >
-                        <div class="card-body"> 
-                            <h5 class="card-title text-center">Bombitas 7 chakras</h5>
-                            <p class="card-text text-center h6 text-success">$900</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card card-border mb-5 index__productos__card">
-                        <img src="./img/sahumerio.jpg" class="card-img-top" alt="Sahumerios de distintos olores y funciones, para mejorar tu animo" >
-                        <div class="card-body"> 
-                            <h5 class="card-title text-center">sahumerio</h5>
-                            <p class="card-text text-center h6 text-success">$80</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card card-border mb-5 index__productos__card">
-                        <img src="./img/collar-blanco.jpg" class="card-img-top" alt="La mejor forma de limpiar tus impurezas es con un collar Cuarzo cristal" >
-                        <div class="card-body"> 
-                            <h5 class="card-title text-center">Cuarzo cristal</h5>
-                            <p class="card-text text-center h6 text-success">$1300</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card card-border mb-5 index__productos__card">
-                        <img src="./img/prosperidad.jpg" class="card-img-top" alt="Kit prosperidad" >
-                        <div class="card-body"> 
-                            <h5 class="card-title text-center">Kit prosperidad</h5>
-                            <p class="card-text text-center h6 text-success">$2000</p>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <a href="#" class="row justify-content-center link-success">
-                <div class="col-1 d-flex align-items-center justify-content-center index__productos__link">
-                    <p class="font-weight-bold">Mas</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-right-short align-self-start" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-                    </svg>
-                </div>
-            </a>
-        </div>
-    </section>
+    <main id="index">
 
-    <!-- INFORMACION -->
+        <!-- PRODUCTOS -->
 
-    <section id="index__informacion">
-        <div class="container-lg">
-            <div class="row p-5 align-items-center justify-content-center">
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-4 rounded-circle p-3 index__informacion__point">
-                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-shop-window text-light text-center" viewBox="0 0 16 16">
-                                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
-                            </svg>
+        <section class="index__productos">
+            <div class="container-lg">
+                <div class="row p-5">
+
+                    <!-- TITULO H1 -->
+
+                    <h1 class="index__productos__title text-center fw-light pt-5 mt-5 lh-base">Espacio energético y de aromaterapia.<br/> los mejores productos para purificar tu alma</h1>
+                </div>
+
+                <!-- LISTA DE CARTAS -->
+
+                <div class="row index__productos__cards">
+
+                    <!-- CARTAS -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-border mb-5 index__productos__card">
+                            <img src="./img/fondo.jpg" class="card-img-top" alt="Sahumo de flores, Distintos olores a flores y un sabor exquisito" >
+                            <div class="card-body"> 
+                                <h2 class="card-title text-center">Sahumo de flores</h2>
+                                <p class="card-text text-center h6 text-success">$200</p>
+                            </div>
                         </div>
-                        <div class="col-8">
-                            <h5 class="h3">Elegi tu producto</h5>
-                            <p>Tenes una gran variedad dentro de nuetra tienda</p>
+                    </div>
+
+                    <!-- CARTAS -->
+                    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-border mb-5 index__productos__card">
+                            <img src="./img/hornillo.jpg" class="card-img-top" alt="Sahumador de acero colgante, para purificar y limpiar un lugar" >
+                            <div class="card-body"> 
+                                <h2 class="card-title text-center">Sahumador de acero colgante</h2>
+                                <p class="card-text text-center h6 text-success">$1100</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARTAS -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-border mb-5 index__productos__card">
+                            <img src="./img/7chakras.jpg" class="card-img-top" alt="Bombitas 7 chackas, una experiencia que te permite llevar todos tus chackas y buenas vibras al limite" >
+                            <div class="card-body"> 
+                                <h2 class="card-title text-center">Bombitas 7 chakras</h2>
+                                <p class="card-text text-center h6 text-success">$900</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARTAS -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-border mb-5 index__productos__card">
+                            <img src="./img/sahumerio.jpg" class="card-img-top" alt="Sahumerios de distintos olores y funciones, para mejorar tu animo" >
+                            <div class="card-body"> 
+                                <h2 class="card-title text-center">sahumerio</h2>
+                                <p class="card-text text-center h6 text-success">$80</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARTAS -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-border mb-5 index__productos__card">
+                            <img src="./img/collar-blanco.jpg" class="card-img-top" alt="La mejor forma de limpiar tus impurezas es con un collar Cuarzo cristal" >
+                            <div class="card-body"> 
+                                <h2 class="card-title text-center">Cuarzo cristal</h2>
+                                <p class="card-text text-center h6 text-success">$1300</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARTAS -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-border mb-5 index__productos__card">
+                            <img src="./img/prosperidad.jpg" class="card-img-top" alt="Kit prosperidad" >
+                            <div class="card-body"> 
+                                <h2 class="card-title text-center">Kit prosperidad</h2>
+                                <p class="card-text text-center h6 text-success">$2000</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-4 rounded-circle p-3 index__informacion__point">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-credit-card text-center text-light" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
-                                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
-                              </svg>
-                        </div>
-                        <div class="col-8">
-                            <h5 class="h3">Pago online</h5>
-                            <p>Podes abonar con todos los medios</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-4 rounded-circle p-3 index__informacion__point">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-house-heart text-center text-light" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207l-5-5-5 5V13.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7.207Zm-5-.225C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
-                            </svg>
-                        </div>
-                        <div class="col-8">
-                            <h5 class="h3">Recibi tu pedido</h5>
-                            <p>Te lo enviamos a tu casa</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-center p-5">
-                <a href="./pages/nosotros.html#nosotros__pagos" class="col-sm-12 col-md-5 link-light rounded py-4 my-3 mx-md-2 index__informacion__card">
-                    <div class="row align-items-center justify-content-center h-100">
-                        <div class="col-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
-                                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
-                            </svg>
-                        </div>
-                        <div class="col-12">
-                            <h6 class="text-center">Nuestros medios de pago</h6>
-                        </div>                        
+
+                <!-- LINK A PRODUCTOS -->
+
+                <a href="#" class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center link-success">
+                        <p class="fw-light">Mas</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-right-short align-self-start" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h2.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                        </svg>
                     </div>
                 </a>
-                <a href="./pages/nosotros.html#nosotros__consulta" class="col-sm-12 col-md-5 link-light rounded py-4 my-3 mx-md-2 index__informacion__card">
-                    <div class="row align-items-center justify-content-center h-100">
-                        <div class="col-4">
+            </div>
+        </section>
+
+        <!-- INFORMACION DEL INDEX -->
+
+        <section class="index__information">
+
+            <!-- CARTAS CON INFORMACION -->
+
+            <article class="container-lg py-5 information__cards">
+
+                <div class="row justify-content-center align-items-center my-5 px-5 information__card__container">
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2 information__card__item">
+                        <div class="row justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-shop-window text-light text-center col-4 rounded-circle p-2" viewBox="0 0 16 16">
+                                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
+                            </svg>
+                            <div class="col-8">
+                                <h3 class="h4">Elegi tus productos</h3>
+                                <p>Tenes una gran variedad dentro de nuetra tienda</p>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2 information__card__item">
+                        <div class="row justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-credit-card text-center text-light col-4 rounded-circle p-2" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+                                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+                            </svg>
+                            <div class="col-8">
+                                <h3 class="h4">Pago online</h3>
+                                <p>Podes abonar por todos los medios</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2 information__card__item">
+                        <div class="row justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-house-heart text-center text-light col-4 rounded-circle p-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207l-5-5-5 5V13.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7.207Zm-5-.225C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
+                            </svg>
+                            <div class="col-8">
+                                <h3 class="h4">Recibi tu pedido</h3>
+                                <p>Te lo enviamos a tu casa</p>
+                            </div>
+                        </div>
+                    </div>                     
+                </div>
+
+            </article>
+
+            <!-- LINKS HACIA INFORMACION -->
+            
+            <article class="container-lg p-5 information__links">
+                <div class="row justify-content-between align-items-center mb-5 information__links__container">
+                    <div class="col-sm-12 col-lg-5 my-3 rounded information__links__item">
+                        <a href="#" class="row h-100 justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-credit-card col-12 text-center" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+                                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+                            </svg>
+
+                            <h4 class="col-12 text-center">Nuestros medios de pago</h4>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-lg-5 my-3 rounded information__links__item ">
+                        <a href="#" class="row h-100 justify-content-center align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
                                 <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                             </svg>
-                        </div>
-                        <div class="col-12">
-                            <h6 class="text-center">Alguna consulta?</h6>
-                        </div>                        
-                    </div>
-                </a>
 
-            </div>
-        </div>
-    </section>
+                            <h4 class="col-12 text-center">¿Necesita ayuda?</h4>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
 
     <!-- FOOTER -->
-
-    <footer id="footer" class="bg-dark">
-        <div class="container-lg p-4 p-lg-5 ">
-            <div class="row justify-content-center align-items-center footer__container">
-                <div class="col-sm-12 col-md-8">
-                    <h6 class="text-center fs-2" style="font-weight: lighter;" >INCIENSO</h6>
-                </div>
-                <div class="col-sm-4 d-flex justify-content-center align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-instagram m-2" viewBox="0 0 16 16">
-                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-whatsapp m-2" viewBox="0 0 16 16">
-                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                    </svg>
-                </div>
+    <footer id="footer">
+        <div class="container-lg">
+            <div class="row w-100 h-100 position-relative">
+                <h5 class="position-absolute top-50 start-50 translate-middle text-center fw-light">INCIENSO</h5>
             </div>
         </div>
     </footer>
+    
 
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
