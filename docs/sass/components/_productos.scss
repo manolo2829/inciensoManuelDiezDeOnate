@@ -1,0 +1,53 @@
+@import '../base/colors';
+@import '../base/extend';
+
+#productos{
+    
+    .productos__catalogo{
+
+        padding-top: 130px; 
+        background-color: $color-primary;
+
+        .productos__catalogo__lista li{
+            &:hover{
+                background-color: $color-primary;
+                color: #fff;
+            }
+        }
+
+        .card__container{
+            .productos__catalogo__card{
+                transition: all 1s;
+                &:hover{
+                    transform: scale(1.05);
+                }
+        
+                img{
+                    height: 250px;
+                    object-fit: cover;
+        
+                }
+
+                @media (max-width:540px){
+                    img{
+                        height: 150px;
+                    }
+                }
+            }
+        }
+
+        .container-lg{
+            .row{
+                .col-md-12{
+                    .row{
+                        .card__container{
+                            a{
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

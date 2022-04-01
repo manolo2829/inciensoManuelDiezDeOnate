@@ -1,0 +1,57 @@
+@import '../base/colors';
+@import '../base/extend';
+
+
+#nosotros{
+
+    .nosotros__separator{
+        @extend %separator;
+    }
+
+    .nosotros__information{
+        background: url('../img/wooden-wall-1846867_640.jpg');
+        .container-lg{
+            .nosotros__information__container{
+                padding-top: 130px;
+                .information__container__img{
+                    border: 5px dashed $color-secondary;
+                    background-color: white;
+                    position: relative;
+                    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                    .information__pin{
+                        width: 100px;
+                        height: 100px;
+                    }
+                    .information__img--rotate{
+                        transform: rotate(9deg);
+                    }
+                    .information__img{
+                        height: 500px; 
+                        width: 100%;
+                        object-fit: cover;
+                        @media (max-width: 540px) {
+                            height: 350px;
+                        }
+                        
+                    }
+                    .information__container__fondo{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background-color: $color-head2;
+                    }
+                }
+
+                .information__container__img--rotate{
+                    transform: rotate(5deg);
+                }
+
+            }
+        }
+    }
+
+    .nosotros__links__container{
+        background-color: $color-primary;
+        @extend %shadow;
+    }
+}

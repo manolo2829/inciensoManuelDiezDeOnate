@@ -1,13 +1,17 @@
 @import '../base/colors';
+@import '../base/extend';
 
 #index{
-    .index__productos{
-        background-color: $color-primary;
+    .index__separator{
+        @extend %separator
+    }
 
+    .index__productos{
+        background-image: url('../img/wooden-wall-1846867_640.jpg');
         .container-lg{
             .row{
                 .index__productos__title{
-                    color: $color-black;
+                    color: $color-white;
                 }
 
                 text-decoration: none;
@@ -15,7 +19,9 @@
 
             .index__productos__cards{
                 .index__productos__card{
+                    background-color: transparent;
                     transition: all 1s;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
                     &:hover{
                         transform: scale(1.05);
                     }
@@ -29,6 +35,18 @@
                             height: 290px;
                         }
                     }
+
+                    .card-body{
+                        background-color: $color-white;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                    }
+                }
+            }
+
+            .index__productos__link{
+                div{
+                    @extend %link
                 }
             }
             
@@ -42,6 +60,7 @@
                     .row{
                         svg{
                             background-color: $color-secondary;
+                            @extend %shadow;
                         }
                     }
                 } 
@@ -53,6 +72,8 @@
                 .information__links__item{
                     background-color: $color-secondary;
                     height: 250px;
+                    @extend %shadow;
+                    transition: all .5;
 
                     &:hover{
                         background-color: $color-hover;
@@ -74,3 +95,11 @@
 }
 
 
+@keyframes link {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
