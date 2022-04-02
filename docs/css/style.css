@@ -5,9 +5,16 @@
   animation-iteration-count: infinite;
 }
 
-#nosotros .nosotros__separator, #index .index__separator {
+#cuenta .cuenta__form .form__container fieldset .row #change2, #cuenta .cuenta__form .form__container fieldset .row #change {
+  animation-name: linkChange;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#productos .productos__separator, #nosotros .nosotros__separator, #index .index__separator {
   background: #b4d5b9;
-  background: linear-gradient(180deg, rgba(180, 213, 185, 0.75) 0%, rgba(180, 213, 185, 0) 100%);
+  background: linear-gradient(180deg, rgba(129, 162, 137, 0.9) 0%, rgba(180, 213, 185, 0) 100%);
   position: absolute;
   width: 100%;
   height: 100px;
@@ -30,7 +37,7 @@
 }
 #header .header__container {
   height: 400px;
-  background-color: #b4d5b9e6;
+  background-color: rgba(129, 162, 137, 0.9);
 }
 #header .header__container .header__container__title {
   color: #fff;
@@ -54,6 +61,9 @@
     height: 612px;
   }
 }
+#header .abajo {
+  background-color: #00000070;
+}
 
 #header2 {
   background-image: url("../img/fondo.jpg");
@@ -70,9 +80,16 @@
   animation-iteration-count: infinite;
 }
 
-#nosotros .nosotros__separator, #index .index__separator {
+#cuenta .cuenta__form .form__container fieldset .row #change2, #cuenta .cuenta__form .form__container fieldset .row #change {
+  animation-name: linkChange;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#productos .productos__separator, #nosotros .nosotros__separator, #index .index__separator {
   background: #b4d5b9;
-  background: linear-gradient(180deg, rgba(180, 213, 185, 0.75) 0%, rgba(180, 213, 185, 0) 100%);
+  background: linear-gradient(180deg, rgba(129, 162, 137, 0.9) 0%, rgba(180, 213, 185, 0) 100%);
   position: absolute;
   width: 100%;
   height: 100px;
@@ -149,9 +166,16 @@
   animation-iteration-count: infinite;
 }
 
-#nosotros .nosotros__separator, #index .index__separator {
+#cuenta .cuenta__form .form__container fieldset .row #change2, #cuenta .cuenta__form .form__container fieldset .row #change {
+  animation-name: linkChange;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#productos .productos__separator, #nosotros .nosotros__separator, #index .index__separator {
   background: #b4d5b9;
-  background: linear-gradient(180deg, rgba(180, 213, 185, 0.75) 0%, rgba(180, 213, 185, 0) 100%);
+  background: linear-gradient(180deg, rgba(129, 162, 137, 0.9) 0%, rgba(180, 213, 185, 0) 100%);
   position: absolute;
   width: 100%;
   height: 100px;
@@ -200,7 +224,7 @@
   transform: rotate(5deg);
 }
 #nosotros .nosotros__links__container {
-  background-color: #DBEDDE;
+  background-color: #a7c9ad;
 }
 
 #index .index__productos .container-lg .index__productos__link div {
@@ -210,9 +234,16 @@
   animation-iteration-count: infinite;
 }
 
-#index .index__separator, #nosotros .nosotros__separator {
+#cuenta .cuenta__form .form__container fieldset .row #change2, #cuenta .cuenta__form .form__container fieldset .row #change {
+  animation-name: linkChange;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#productos .productos__separator, #index .index__separator, #nosotros .nosotros__separator {
   background: #b4d5b9;
-  background: linear-gradient(180deg, rgba(180, 213, 185, 0.75) 0%, rgba(180, 213, 185, 0) 100%);
+  background: linear-gradient(180deg, rgba(129, 162, 137, 0.9) 0%, rgba(180, 213, 185, 0) 100%);
   position: absolute;
   width: 100%;
   height: 100px;
@@ -224,10 +255,10 @@
 
 #productos .productos__catalogo {
   padding-top: 130px;
-  background-color: #DBEDDE;
+  background-color: #a7c9ad;
 }
 #productos .productos__catalogo .productos__catalogo__lista li:hover {
-  background-color: #DBEDDE;
+  background-color: #a7c9ad;
   color: #fff;
 }
 #productos .productos__catalogo .card__container .productos__catalogo__card {
@@ -260,9 +291,16 @@
   animation-iteration-count: infinite;
 }
 
-#index .index__separator, #nosotros .nosotros__separator {
+#cuenta .cuenta__form .form__container fieldset .row #change2, #cuenta .cuenta__form .form__container fieldset .row #change {
+  animation-name: linkChange;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#index .index__separator, #nosotros .nosotros__separator, #productos .productos__separator {
   background: #b4d5b9;
-  background: linear-gradient(180deg, rgba(180, 213, 185, 0.75) 0%, rgba(180, 213, 185, 0) 100%);
+  background: linear-gradient(180deg, rgba(129, 162, 137, 0.9) 0%, rgba(180, 213, 185, 0) 100%);
   position: absolute;
   width: 100%;
   height: 100px;
@@ -273,7 +311,7 @@
 }
 
 #objeto {
-  background-color: #DBEDDE;
+  background-color: #a7c9ad;
 }
 #objeto #objeto__producto .container-lg .row .col-12 img {
   width: 100%;
@@ -308,9 +346,16 @@
   animation-iteration-count: infinite;
 }
 
-#index .index__separator, #nosotros .nosotros__separator {
+#cuenta .cuenta__form .form__container fieldset .row #change2, #cuenta .cuenta__form .form__container fieldset .row #change {
+  animation-name: linkChange;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#index .index__separator, #nosotros .nosotros__separator, #productos .productos__separator {
   background: #b4d5b9;
-  background: linear-gradient(180deg, rgba(180, 213, 185, 0.75) 0%, rgba(180, 213, 185, 0) 100%);
+  background: linear-gradient(180deg, rgba(129, 162, 137, 0.9) 0%, rgba(180, 213, 185, 0) 100%);
   position: absolute;
   width: 100%;
   height: 100px;
@@ -324,11 +369,19 @@
   padding-top: 100px;
   background-image: url("../img/wooden-wall-1846867_640.jpg");
 }
+#cuenta .cuenta__form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
 #cuenta .cuenta__form .form__container {
   background-color: #fff;
   border-radius: 5px;
   max-width: 600px;
   margin: auto;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  position: relative;
 }
 #cuenta .cuenta__form .form__container fieldset legend {
   color: #7ac985;
@@ -347,7 +400,50 @@
 #cuenta .cuenta__form .form__container fieldset .row .btn__send:hover {
   background-color: #7ac985;
 }
+#cuenta .cuenta__form .form__container fieldset .row #change {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #a7c9ad;
+}
+#cuenta .cuenta__form .form__container fieldset .row #change:hover {
+  color: #7ac985;
+}
+#cuenta .cuenta__form .form__container fieldset .row #change2 {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #a7c9ad;
+}
+#cuenta .cuenta__form .form__container fieldset .row #change2:hover {
+  color: #7ac985;
+}
+#cuenta .cuenta__form .form__logIn {
+  transform: perspective(500px) rotateY(0deg);
+  transition: all 2s;
+  visibility: visible;
+  z-index: 1;
+}
+#cuenta .cuenta__form .form__checkIn {
+  transform: perspective(500px) rotateY(180deg);
+  transition: all 2s;
+  z-index: 1;
+}
+#cuenta .cuenta__form .form__logIn--active {
+  visibility: hidden;
+  transform: perspective(500px) rotateY(180deg);
+  z-index: 0;
+}
+#cuenta .cuenta__form .form__checkIn--active {
+  transform: perspective(500px) rotateY(360deg);
+}
 
+@keyframes linkChange {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-3px);
+  }
+}
 #footer {
   background-image: url("../img/fondo.jpg");
   position: relative;

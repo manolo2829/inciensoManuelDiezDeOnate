@@ -7,12 +7,20 @@
 
     .cuenta__form{
 
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
         .form__container{
             background-color: $color-white;
             border-radius: 5px;
             @extend %shadow;
             max-width: 600px;
             margin: auto;
+
+            grid-row: 1/2;
+            grid-column: 1/2;
+            position: relative;
 
             fieldset{
                 legend{
@@ -35,8 +43,62 @@
                         }
 
                     }
+
+                    #change{
+                        text-decoration: underline;
+                        cursor: pointer;
+                        color: $color-primary;
+                        @extend %linkChange;
+                        &:hover{
+                            color: $color-hover;
+                        }
+                    }
+                    #change2{
+                        text-decoration: underline;
+                        cursor: pointer;
+                        color: $color-primary;
+                        @extend %linkChange;
+
+                        &:hover{
+                            color: $color-hover;
+                        }
+                    }
                 }
             }
+
+            
         }
+
+        .form__logIn{
+            transform: perspective(500px) rotateY(0deg);
+            transition: all 2s;
+            visibility: visible;
+            z-index: 1;
+        }
+
+        .form__checkIn{
+            transform: perspective(500px) rotateY(180deg);
+            transition: all 2s;
+            z-index: 1;
+            
+        }
+
+        .form__logIn--active{
+            visibility: hidden;
+            transform: perspective(500px) rotateY(180deg);
+            z-index: 0;
+        }
+        .form__checkIn--active{
+            transform: perspective(500px) rotateY(360deg);
+        }
+    }
+}
+
+@keyframes linkChange {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-3px);
     }
 }
