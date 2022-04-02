@@ -17,9 +17,15 @@
 
         .card__container{
             .productos__catalogo__card{
+                background-color: transparent;
                 transition: all 1s;
+                @extend %shadow;
                 &:hover{
                     transform: scale(1.05);
+                }
+
+                .card-body{
+                    background-color: #fff;
                 }
         
                 img{

@@ -41,3 +41,11 @@
     }
 
 }
+
+#header2{
+    background-image: url('../img/fondo.jpg');
+    opacity: .8;
+    .header__nav{
+        background-color: $color-head2;
+    }
+}

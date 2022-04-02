@@ -1,0 +1,42 @@
+@import '../base/colors';
+@import '../base/extend';
+
+#cuenta{
+    padding-top: 100px;
+    background-image: url('../img/wooden-wall-1846867_640.jpg');
+
+    .cuenta__form{
+
+        .form__container{
+            background-color: $color-white;
+            border-radius: 5px;
+            @extend %shadow;
+            max-width: 600px;
+            margin: auto;
+
+            fieldset{
+                legend{
+                    color: $color-hover;
+                }
+                .row{
+                    label{
+                        color: $color-hover;
+                    }
+                    input{
+                        border: 2px solid $color-hover;
+                        border-radius: 5px;
+                    }
+
+                    .btn__send{
+                        background-color: $color-secondary;
+                        color: $color-white;
+                        &:hover{
+                            background-color: $color-hover;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
