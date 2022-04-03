@@ -19,13 +19,18 @@
             ul{
                 z-index: 1;
                 list-style: none;
-                a{
-                    text-decoration: none;
-                    color: $color-white;
-                    cursor: pointer;
-
-                    &:hover{
-                        color: $color-hover;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: $color-white;
+                        cursor: pointer;
+    
+                        &:hover{
+                            color: $color-hover;
+                        }
+                        img{
+                            fill: $color-white;
+                        }
                     }
                 }
             }

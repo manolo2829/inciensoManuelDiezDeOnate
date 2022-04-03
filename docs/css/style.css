@@ -461,13 +461,16 @@
   z-index: 1;
   list-style: none;
 }
-#footer .container-lg .row ul a {
+#footer .container-lg .row ul li a {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
 }
-#footer .container-lg .row ul a:hover {
+#footer .container-lg .row ul li a:hover {
   color: #7ac985;
+}
+#footer .container-lg .row ul li a img {
+  fill: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
