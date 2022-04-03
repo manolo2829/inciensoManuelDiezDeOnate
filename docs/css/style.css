@@ -466,11 +466,11 @@
   color: #fff;
   cursor: pointer;
 }
-#footer .container-lg .row ul li a:hover {
-  color: #7ac985;
-}
 #footer .container-lg .row ul li a img {
-  fill: #fff;
+  border-radius: 5px;
+}
+#footer .container-lg .row ul li a:hover > img {
+  background-color: #97cc9f;
 }
 
 /*# sourceMappingURL=style.css.map */
