@@ -18,35 +18,40 @@
             }
 
             .index__productos__cards{
-                .index__productos__card{
-                    background-color: transparent;
-                    transition: all 1s;
-                    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-                    &:hover{
-                        transform: scale(1.05);
-                    }
-
-                    img{
-                        object-fit: cover;
-                        width: 100%;
-                        height: 224px;
-
-                        @media (min-width: 960px){
-                            height: 290px;
+                a{
+                    text-decoration: none;
+                    color: $color-black;
+                    .index__productos__card{
+                        background-color: transparent;
+                        transition: all 1s;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        &:hover{
+                            transform: scale(1.05);
                         }
-                    }
-
-                    .card-body{
-                        background-color: $color-white;
-                        border-bottom-left-radius: 5px;
-                        border-bottom-right-radius: 5px;
+    
+                        img{
+                            object-fit: cover;
+                            width: 100%;
+                            height: 224px;
+    
+                            @media (min-width: 960px){
+                                height: 290px;
+                            }
+                        }
+    
+                        .card-body{
+                            background-color: $color-white;
+                            border-bottom-left-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                        }
                     }
                 }
             }
 
             .index__productos__link{
+                backdrop-filter: blur(1px);
                 div{
-                    @extend %link
+                    @extend %link;
                 }
             }
             

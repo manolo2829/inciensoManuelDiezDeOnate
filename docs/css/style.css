@@ -108,28 +108,35 @@
 #index .index__productos .container-lg .row .index__productos__title {
   color: #fff;
 }
-#index .index__productos .container-lg .index__productos__cards .index__productos__card {
+#index .index__productos .container-lg .index__productos__cards a {
+  text-decoration: none;
+  color: #000;
+}
+#index .index__productos .container-lg .index__productos__cards a .index__productos__card {
   background-color: transparent;
   transition: all 1s;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-#index .index__productos .container-lg .index__productos__cards .index__productos__card:hover {
+#index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
   transform: scale(1.05);
 }
-#index .index__productos .container-lg .index__productos__cards .index__productos__card img {
+#index .index__productos .container-lg .index__productos__cards a .index__productos__card img {
   object-fit: cover;
   width: 100%;
   height: 224px;
 }
 @media (min-width: 960px) {
-  #index .index__productos .container-lg .index__productos__cards .index__productos__card img {
+  #index .index__productos .container-lg .index__productos__cards a .index__productos__card img {
     height: 290px;
   }
 }
-#index .index__productos .container-lg .index__productos__cards .index__productos__card .card-body {
+#index .index__productos .container-lg .index__productos__cards a .index__productos__card .card-body {
   background-color: #fff;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+#index .index__productos .container-lg .index__productos__link {
+  backdrop-filter: blur(1px);
 }
 #index .index__information .information__cards .information__card__container .information__card__item .row svg {
   background-color: #97cc9f;
@@ -222,6 +229,9 @@
 }
 #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__img--rotate {
   transform: rotate(5deg);
+}
+#nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body {
+  backdrop-filter: blur(3px);
 }
 #nosotros .nosotros__links__container {
   background-color: #a7c9ad;
@@ -368,6 +378,9 @@
 #cuenta {
   padding-top: 100px;
   background-image: url("../img/wooden-wall-1846867_640.jpg");
+}
+#cuenta .cuenta__title {
+  backdrop-filter: blur(2px);
 }
 #cuenta .cuenta__form {
   display: grid;
