@@ -12,11 +12,16 @@
         padding-top: 130px; 
         background-color: $color-primary;
 
-        .productos__catalogo__lista li{
-            &:hover{
-                background-color: $color-primary;
-                color: #fff;
+        .productos__catalogo__lista{
+            position: sticky;
+            top: 60px;
+            li{
+                &:hover{
+                    background-color: $color-primary;
+                    color: #fff;
+                }
             }
+            
         }
 
         .card__container{

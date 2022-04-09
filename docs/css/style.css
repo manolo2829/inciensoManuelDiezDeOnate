@@ -267,6 +267,10 @@
   padding-top: 130px;
   background-color: #a7c9ad;
 }
+#productos .productos__catalogo .productos__catalogo__lista {
+  position: sticky;
+  top: 60px;
+}
 #productos .productos__catalogo .productos__catalogo__lista li:hover {
   background-color: #a7c9ad;
   color: #fff;
@@ -383,6 +387,7 @@
   backdrop-filter: blur(2px);
 }
 #cuenta .cuenta__form {
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
