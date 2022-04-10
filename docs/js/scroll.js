@@ -5,8 +5,7 @@ const sr = ScrollReveal()
 sr.reveal('.animation__title__left', {
     duration: 4000,
     origin: 'left',
-    distance: '400px',
-    reset: true
+    distance: '400px'
 })
 
 sr.reveal('.animation__card__1', {
@@ -25,18 +24,6 @@ sr.reveal('.animation__card__3', {
     duration: 5000,
     origin: 'bottom',
     distance: '100px'
-})
-
-sr.reveal('.information__cards', {
-    duration: 3000,
-    scale: 0.85,
-    reset: true
-})
-
-sr.reveal('.information__links', {
-    duration: 3000,
-    scale: 0.85,
-    reset: true
 })
 
 
@@ -68,4 +55,9 @@ sr.reveal('.animation__reveal__bottom', {
 
 sr.reveal('.animation__reveal', {
     duration: 3000
+})
+
+sr.reveal('.animation__scale', {
+    duration: 3000,
+    scale: 0.85
 })

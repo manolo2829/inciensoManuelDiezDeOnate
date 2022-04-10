@@ -66,7 +66,6 @@
 }
 
 #header2 {
-  background-image: url("../img/fondo.jpg");
   opacity: 0.8;
 }
 #header2 .header__nav {
@@ -107,6 +106,7 @@
 }
 #index .index__productos .container-lg .row .index__productos__title {
   color: #fff;
+  backdrop-filter: blur(2px);
 }
 #index .index__productos .container-lg .index__productos__cards a {
   text-decoration: none;
@@ -272,7 +272,7 @@
   top: 60px;
 }
 #productos .productos__catalogo .productos__catalogo__lista li:hover {
-  background-color: #a7c9ad;
+  background-color: #00000070;
   color: #fff;
 }
 #productos .productos__catalogo .card__container .productos__catalogo__card {
