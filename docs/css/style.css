@@ -26,6 +26,7 @@
 
 #header {
   background-image: url("../img/fondo.jpg");
+  background-size: cover;
 }
 #header .header__nav {
   background-color: #00000070;
