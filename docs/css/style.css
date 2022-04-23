@@ -24,10 +24,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
   transition: all 1s ease;
 }
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
   transform: scale(1.05);
 }
 
@@ -110,10 +110,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
   transition: all 1s ease;
 }
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
   transform: scale(1.05);
 }
 
@@ -130,6 +130,9 @@
 #index .index__productos .container-lg .row .index__productos__title {
   color: #fff;
   backdrop-filter: blur(2px);
+}
+#index .index__productos .container-lg .index__productos__cards {
+  overflow: hidden;
 }
 #index .index__productos .container-lg .index__productos__cards a {
   text-decoration: none;
@@ -214,10 +217,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
   transition: all 1s ease;
 }
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
   transform: scale(1.05);
 }
 
@@ -227,6 +230,9 @@
 
 #nosotros .nosotros__information {
   background: url("../img/wooden-wall-1846867_640.jpg");
+}
+#nosotros .nosotros__information .container-lg {
+  overflow: hidden;
 }
 #nosotros .nosotros__information .container-lg .nosotros__information__container {
   padding-top: 130px;
@@ -310,10 +316,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
   transition: all 1s ease;
 }
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
   transform: scale(1.05);
 }
 
@@ -393,10 +399,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #index .index__productos .container-lg .index__productos__cards a .index__productos__card, #productos .productos__catalogo .card__container .productos__catalogo__card {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4, #index .index__productos .container-lg .index__productos__cards a .index__productos__card, #productos .productos__catalogo .card__container .productos__catalogo__card {
   transition: all 1s ease;
 }
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover {
   transform: scale(1.05);
 }
 
@@ -407,12 +413,15 @@
 #objeto {
   background-color: #a7c9ad;
 }
-#objeto #objeto__producto .container-lg .row .col-12 img {
+#objeto #objeto__producto .container-lg .objeto__producto__container {
+  overflow: hidden;
+}
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 img {
   width: 100%;
   height: 420px;
   object-fit: cover;
 }
-#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 p span {
+#objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 p span {
   font-weight: lighter;
 }
 #objeto #objeto__relacionado .container-lg .row .col-12 a {
@@ -459,10 +468,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#index .index__productos .container-lg .index__productos__cards a .index__productos__card, #productos .productos__catalogo .card__container .productos__catalogo__card, #objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4 {
+#index .index__productos .container-lg .index__productos__cards a .index__productos__card, #productos .productos__catalogo .card__container .productos__catalogo__card, #objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4 {
   transition: all 1s ease;
 }
-#index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover {
+#index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #objeto #objeto__producto .container-lg .objeto__producto__container .col-12 .row .col-12 h4:hover {
   transform: scale(1.05);
 }
 
