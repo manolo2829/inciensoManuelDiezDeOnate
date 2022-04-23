@@ -35,6 +35,7 @@ sr.reveal('.animation__reveal__left', {
     distance: '100px'
 })
 
+
 sr.reveal('.animation__reveal__right', {
     duration: 3000,
     origin: 'right',

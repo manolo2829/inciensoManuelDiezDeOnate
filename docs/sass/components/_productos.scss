@@ -12,26 +12,48 @@
         padding-top: 130px; 
         background-color: $color-primary;
 
+        .productos__title{
+            @extend %textShadow;
+        }
+
         .productos__catalogo__lista{
             position: sticky;
             top: 60px;
             li{
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 4px;
+                    background-color: $color-third;
+                    opacity: 0;
+                    transition: all 100ms ease;
+                }
+
                 &:hover{
-                    background-color: $color-head2;
+                    background-color: $color-secondary;
                     color: #fff;
+                    border: 1px solid $color-third;
+
+                    &::before{
+                        opacity: 1;
+                    }
                 }
             }
+
+            
             
         }
 
         .card__container{
             .productos__catalogo__card{
                 background-color: transparent;
-                transition: all 1s;
                 @extend %shadow;
-                &:hover{
-                    transform: scale(1.05);
-                }
+                @extend %productoHover;
+
 
                 .card-body{
                     background-color: #fff;

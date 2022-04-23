@@ -24,11 +24,9 @@
                     color: $color-black;
                     .index__productos__card{
                         background-color: transparent;
-                        transition: all 1s;
                         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-                        &:hover{
-                            transform: scale(1.05);
-                        }
+                        @extend %productoHover;
+                        
                         img{
                             object-fit: cover;
                             width: 100%;
@@ -49,9 +47,19 @@
             }
 
             .index__productos__link{
-                backdrop-filter: blur(1px);
                 div{
                     @extend %link;
+
+                    p{
+                        font-weight: bold;
+                        @extend %textShadow;
+                    
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+
+                    
                 }
             }
             
@@ -102,9 +110,9 @@
 
 @keyframes link {
     0%{
-        transform: scale(1);
-    }
+        transform: translateX(-5px);
+    }  
     100%{
-        transform: scale(1.2);
+        transform: translateX(5px);
     }
 }

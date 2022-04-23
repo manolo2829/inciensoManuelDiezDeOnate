@@ -24,6 +24,10 @@
                                     font-weight: lighter;
                                 }
                             }
+
+                            h4{
+                                @extend %productoHover;
+                            }
                         }
                     }
                 }
@@ -57,6 +61,6 @@
                     }
                 }
             }
-        }
+        } 
     }
 }

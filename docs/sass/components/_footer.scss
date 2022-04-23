@@ -29,8 +29,10 @@
                             border-radius: 5px;
                         }
     
-                        &:hover > img{
-                            background-color: $color-secondary;
+                        &:hover{
+                            img{
+                                filter: invert(48%) sepia(95%) saturate(338%) hue-rotate(78deg) brightness(96%) contrast(86%);
+                            }
                         }
                     }
                 }

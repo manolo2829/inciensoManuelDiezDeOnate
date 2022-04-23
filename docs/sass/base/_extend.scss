@@ -26,3 +26,16 @@
 %shadow{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
+
+%productoHover{
+    transition: all 1s ease;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+%textShadow{
+    text-shadow: 3px 3px 20px rgb(0, 93, 0),
+    -2px 1px 30px rgb(0, 71, 0);
+}

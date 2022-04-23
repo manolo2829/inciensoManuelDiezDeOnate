@@ -20,8 +20,19 @@
   height: 100px;
 }
 
-#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #productos .productos__catalogo .card__container .productos__catalogo__card, #nosotros .nosotros__links__container, #index .index__information .information__links .information__links__container .information__links__item, #index .index__information .information__cards .information__card__container .information__card__item .row svg {
+#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #productos .productos__catalogo .card__container .productos__catalogo__card, #nosotros .nosotros__links__container, #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body, #index .index__information .information__links .information__links__container .information__links__item, #index .index__information .information__cards .information__card__container .information__card__item .row svg {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
+  transition: all 1s ease;
+}
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
+  transform: scale(1.05);
+}
+
+#productos .productos__catalogo .productos__title, #index .index__productos .container-lg .index__productos__link div p {
+  text-shadow: 3px 3px 20px #005d00, -2px 1px 30px #004700;
 }
 
 #header {
@@ -95,8 +106,19 @@
   height: 100px;
 }
 
-#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #productos .productos__catalogo .card__container .productos__catalogo__card, #nosotros .nosotros__links__container, #index .index__information .information__links .information__links__container .information__links__item, #index .index__information .information__cards .information__card__container .information__card__item .row svg {
+#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #productos .productos__catalogo .card__container .productos__catalogo__card, #nosotros .nosotros__links__container, #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body, #index .index__information .information__links .information__links__container .information__links__item, #index .index__information .information__cards .information__card__container .information__card__item .row svg {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
+  transition: all 1s ease;
+}
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
+  transform: scale(1.05);
+}
+
+#productos .productos__catalogo .productos__title, #index .index__productos .container-lg .index__productos__link div p {
+  text-shadow: 3px 3px 20px #005d00, -2px 1px 30px #004700;
 }
 
 #index .index__productos {
@@ -115,11 +137,7 @@
 }
 #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
   background-color: transparent;
-  transition: all 1s;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-#index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
-  transform: scale(1.05);
 }
 #index .index__productos .container-lg .index__productos__cards a .index__productos__card img {
   object-fit: cover;
@@ -136,8 +154,11 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-#index .index__productos .container-lg .index__productos__link {
-  backdrop-filter: blur(1px);
+#index .index__productos .container-lg .index__productos__link div p {
+  font-weight: bold;
+}
+#index .index__productos .container-lg .index__productos__link div p:hover {
+  text-decoration: underline;
 }
 #index .index__information .information__cards .information__card__container .information__card__item .row svg {
   background-color: #97cc9f;
@@ -161,10 +182,10 @@
 
 @keyframes link {
   0% {
-    transform: scale(1);
+    transform: translateX(-5px);
   }
   100% {
-    transform: scale(1.2);
+    transform: translateX(5px);
   }
 }
 #index .index__productos .container-lg .index__productos__link div {
@@ -189,8 +210,19 @@
   height: 100px;
 }
 
-#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #productos .productos__catalogo .card__container .productos__catalogo__card, #nosotros .nosotros__links__container, #index .index__information .information__cards .information__card__container .information__card__item .row svg, #index .index__information .information__links .information__links__container .information__links__item {
+#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #productos .productos__catalogo .card__container .productos__catalogo__card, #nosotros .nosotros__links__container, #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body, #index .index__information .information__cards .information__card__container .information__card__item .row svg, #index .index__information .information__links .information__links__container .information__links__item {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
+  transition: all 1s ease;
+}
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
+  transform: scale(1.05);
+}
+
+#productos .productos__catalogo .productos__title, #index .index__productos .container-lg .index__productos__link div p {
+  text-shadow: 3px 3px 20px #005d00, -2px 1px 30px #004700;
 }
 
 #nosotros .nosotros__information {
@@ -232,7 +264,21 @@
   transform: rotate(5deg);
 }
 #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body {
-  backdrop-filter: blur(3px);
+  background-color: rgba(166, 201, 173, 0.5);
+}
+#nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body h2 {
+  font-size: 18px;
+}
+#nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body h1 {
+  font-size: 18px;
+}
+@media (min-width: 992px) {
+  #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body h2 {
+    font-size: 20px;
+  }
+  #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body h1 {
+    font-size: 20px;
+  }
 }
 #nosotros .nosotros__links__container {
   background-color: #a7c9ad;
@@ -260,8 +306,19 @@
   height: 100px;
 }
 
-#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__information .information__cards .information__card__container .information__card__item .row svg, #index .index__information .information__links .information__links__container .information__links__item, #nosotros .nosotros__links__container {
+#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__information .information__cards .information__card__container .information__card__item .row svg, #index .index__information .information__links .information__links__container .information__links__item, #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body, #nosotros .nosotros__links__container {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #productos .productos__catalogo .card__container .productos__catalogo__card, #index .index__productos .container-lg .index__productos__cards a .index__productos__card {
+  transition: all 1s ease;
+}
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover {
+  transform: scale(1.05);
+}
+
+#productos .productos__catalogo .productos__title, #index .index__productos .container-lg .index__productos__link div p {
+  text-shadow: 3px 3px 20px #005d00, -2px 1px 30px #004700;
 }
 
 #productos .productos__catalogo {
@@ -272,16 +329,27 @@
   position: sticky;
   top: 60px;
 }
+#productos .productos__catalogo .productos__catalogo__lista li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #3ca94b;
+  opacity: 0;
+  transition: all 100ms ease;
+}
 #productos .productos__catalogo .productos__catalogo__lista li:hover {
-  background-color: #00000070;
+  background-color: #97cc9f;
   color: #fff;
+  border: 1px solid #3ca94b;
+}
+#productos .productos__catalogo .productos__catalogo__lista li:hover::before {
+  opacity: 1;
 }
 #productos .productos__catalogo .card__container .productos__catalogo__card {
   background-color: transparent;
-  transition: all 1s;
-}
-#productos .productos__catalogo .card__container .productos__catalogo__card:hover {
-  transform: scale(1.05);
 }
 #productos .productos__catalogo .card__container .productos__catalogo__card .card-body {
   background-color: #fff;
@@ -321,8 +389,19 @@
   height: 100px;
 }
 
-#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #index .index__information .information__cards .information__card__container .information__card__item .row svg, #index .index__information .information__links .information__links__container .information__links__item, #nosotros .nosotros__links__container, #productos .productos__catalogo .card__container .productos__catalogo__card {
+#cuenta .cuenta__form .form__container, #objeto #objeto__relacionado .container-lg .row .col-12 a .card, #index .index__information .information__cards .information__card__container .information__card__item .row svg, #index .index__information .information__links .information__links__container .information__links__item, #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body, #nosotros .nosotros__links__container, #productos .productos__catalogo .card__container .productos__catalogo__card {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4, #index .index__productos .container-lg .index__productos__cards a .index__productos__card, #productos .productos__catalogo .card__container .productos__catalogo__card {
+  transition: all 1s ease;
+}
+#objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover, #index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover {
+  transform: scale(1.05);
+}
+
+#index .index__productos .container-lg .index__productos__link div p, #productos .productos__catalogo .productos__title {
+  text-shadow: 3px 3px 20px #005d00, -2px 1px 30px #004700;
 }
 
 #objeto {
@@ -376,8 +455,19 @@
   height: 100px;
 }
 
-#cuenta .cuenta__form .form__container, #index .index__information .information__cards .information__card__container .information__card__item .row svg, #index .index__information .information__links .information__links__container .information__links__item, #nosotros .nosotros__links__container, #productos .productos__catalogo .card__container .productos__catalogo__card, #objeto #objeto__relacionado .container-lg .row .col-12 a .card {
+#cuenta .cuenta__form .form__container, #index .index__information .information__cards .information__card__container .information__card__item .row svg, #index .index__information .information__links .information__links__container .information__links__item, #nosotros .nosotros__information .container-lg .nosotros__information__container .information__container__body, #nosotros .nosotros__links__container, #productos .productos__catalogo .card__container .productos__catalogo__card, #objeto #objeto__relacionado .container-lg .row .col-12 a .card {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#index .index__productos .container-lg .index__productos__cards a .index__productos__card, #productos .productos__catalogo .card__container .productos__catalogo__card, #objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4 {
+  transition: all 1s ease;
+}
+#index .index__productos .container-lg .index__productos__cards a .index__productos__card:hover, #productos .productos__catalogo .card__container .productos__catalogo__card:hover, #objeto #objeto__producto .container-lg .row .col-12 .row .col-12 h4:hover {
+  transform: scale(1.05);
+}
+
+#index .index__productos .container-lg .index__productos__link div p, #productos .productos__catalogo .productos__title {
+  text-shadow: 3px 3px 20px #005d00, -2px 1px 30px #004700;
 }
 
 #cuenta {
@@ -385,7 +475,7 @@
   background-image: url("../img/wooden-wall-1846867_640.jpg");
 }
 #cuenta .cuenta__title {
-  backdrop-filter: blur(2px);
+  background-color: rgba(166, 201, 173, 0.5);
 }
 #cuenta .cuenta__form {
   overflow: hidden;
@@ -488,8 +578,8 @@
 #footer .container-lg .row ul li a img {
   border-radius: 5px;
 }
-#footer .container-lg .row ul li a:hover > img {
-  background-color: #97cc9f;
+#footer .container-lg .row ul li a:hover img {
+  filter: invert(48%) sepia(95%) saturate(338%) hue-rotate(78deg) brightness(96%) contrast(86%);
 }
 
 /*# sourceMappingURL=style.css.map */

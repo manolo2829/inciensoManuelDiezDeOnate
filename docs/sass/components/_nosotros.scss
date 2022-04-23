@@ -48,8 +48,25 @@
                 }
 
                 .information__container__body{
-                    backdrop-filter: blur(3px);
+                    background-color: hsla(131, 24%, 72%, 0.500);
+                    @extend %shadow;
 
+                    h2{
+                        font-size: 18px;
+                    }
+                    h1{
+                        font-size: 18px;
+
+                    }
+
+                    @media (min-width: 992px) {
+                        h2{
+                            font-size: 20px;
+                        }
+                        h1{
+                            font-size: 20px;
+                        }
+                    }
                 }
 
             }
